@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Indian Podcasts </title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<%= yield %>
+
+<footer id="main_footer">
+  <p class="copyright"> &copy; 2015 Neil Patel</p>
+   <nav>
+    <a href="http://twitter.com/neilp666" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="http://www.facebook.com/indianstartupshow" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="http://github.com/neilp666" target="_blank"><i class="fa fa-github"></i></a>
+   </nav>
+</footer>
+
+</body>
+</html>

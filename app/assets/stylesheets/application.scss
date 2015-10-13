@@ -1,0 +1,105 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+ $dark: #424652;
+ $light: #9a9da4;
+ $highlight: #8bc6db;
+ $border: #E9E9E9;
+
+
+ @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+ @import "normalize";
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ .clearfix:before
+ .clearfix:after {
+  content: " ";
+  display: table;
+ }
+
+  .clearfix:after {
+    clear: both;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+
+ #main_navigation {
+  padding: 2.5em 5%;
+  .name {
+    font-weight: 700;
+    font-size: .8em;
+    letter-spacing:  2px;
+    text-transform: uppercase;
+    border: 2px solid #E9E9E9;
+    padding: 0.75em 1rem;
+    text-decoration: none;
+    color: $dark;
+    float: left;
+  }
+  nav {
+    float: right;
+    padding-top: .9rem;
+    a {
+      color: $dark;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+    }
+   }
+ }
+
+
+h1 {
+  color: $dark;
+  font-size: 2.5rem;
+}
+
+p, li {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+
+
+.starter-template {
+
+  padding: 70px 15px;
+  text-align: center;
+}
+
+#main_footer {
+  padding: 10.5em 25%;
+  
+  .copyright {
+    float: left;
+    font-size: .9em;
+    margin: 0;
+   }
+   nav {
+    float: right;
+    i {
+      color: $dark;
+      margin-left: 1em;
+      padding-top: .2em;
+      &:hover {
+        color: $highlight;
+      }
+    }
+   }
+ }
+
