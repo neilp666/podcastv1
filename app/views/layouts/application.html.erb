@@ -9,6 +9,15 @@
 </head>
 <body>
 
+  <header id="main_navigation" class="clearfix">
+    <%= link_to "Indian Podcasts", root_path, class: "name" %>
+    <nav>
+      <%= link_to "Blog", posts_path %>
+      <a href="#">Podcasts</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
 <%= yield %>
 
 <footer id="main_footer">

@@ -17,16 +17,20 @@
  $border: #E9E9E9;
 
 
- @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+ @import url(//fonts.googleapis.com/css?family=Raleway:400,700);
  @import "normalize";
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
 
  .clearfix:before
  .clearfix:after {
   content: " ";
   display: table;
  }
+
+
 
   .clearfix:after {
     clear: both;
