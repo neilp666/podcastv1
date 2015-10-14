@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'blog' => 'pages#blog'
 
+  get 'blog_show' => 'pages#blog_show'
+
   get 'contact' => 'pages#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.

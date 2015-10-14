@@ -44,6 +44,11 @@
   text-transform: uppercase;
 }
 
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .skinny_wrapper {
   width: 80%;
   max-width: 700px;
@@ -223,6 +228,43 @@ input[type="submit"], .button {
   &:hover {
     border: 2px solid $highlight;
     color: $highlight;
+  }
+}
+
+#post_show_content {
+  header {
+    text-align: center;
+    .date {
+      font-size: .9em;
+      color: $light;
+      margin: 0;
+    }
+    h1 {
+      margin: 0;
+    }
+  }
+  hr {
+      margin: 3em auto;
+    }
+}
+
+#share_box {
+  text-align: center;
+  p {
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    font-size: .8em;
+  }
+  i {
+    color: $dark;
+    padding: 1em 1.5em;
+    &:hover {
+     color: $highlight;
+     cursor: pointer;
+    }
   }
 }
 
